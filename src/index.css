@@ -1,0 +1,79 @@
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: rgba(0, 167, 0, 0.324);
+  color: black;
+}
+
+div{
+  background: rgb(90, 175, 90);
+  border-radius: 50px;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+  border: none;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 17px;
+  max-width: 100px;
+}
+
+select{
+  border: none;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+button {
+  border-radius: 50px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #007712;
+  cursor: pointer;
+  transition: all 0.25s;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.start{
+  margin-right: 15px;
+  margin-bottom: 45px;
+  max-width: 180px;
+  position: relative;
+}
+
+p{
+  background: #c3ffcc;
+  padding: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.select{
+  margin-right: 30px;
+
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  
+}
